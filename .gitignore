@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Excel temporary files
+~$*.xlsx
+
+# Executables
+*.exe
+
+# Folders for processing (keep structure but ignore contents if desired)
+# For now, let's allow the folder structure but maybe ignore the PDFs
+1_Faturas_Entrada/*.pdf
+2_Faturas_Processadas/*.pdf
+
+# Local environment
+.env
